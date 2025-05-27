@@ -1,0 +1,22 @@
+#header{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#header img{
+   height: 100px;
+   width: 100px;
+   background-color: #9FE2BF;
+   border-radius: 5rem;
+   margin-top: 0.5rem;
+}
+
+#header-title{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-size: bold; */
+    margin-top: 10px;
+}
