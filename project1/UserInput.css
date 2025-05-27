@@ -1,0 +1,90 @@
+.container {
+  height: 20rem;
+  background-color: #9fe2bf;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container label {
+  color: #2f4f4f;
+  font-size: 15px;
+}
+
+.container input {
+  height: 1.6rem;
+  width: 11rem;
+  background-color: #f0fff0;
+  border: 10px solid #9fe2bf;
+  border-radius: 15px;
+  outline: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25rem;
+  width: 40rem;
+  background-color: #9fe2bf;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.user-data {
+  background-color: #808080;
+  width: 50rem;
+  height: 25rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#btn {
+  background-color: #2f4f4f;
+  color: white;
+  border-radius: 10px;
+  height: 2rem;
+  width: 5rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+#btn :hover{
+    background-color: #e41b1b;
+    cursor: not-allowed;
+}
+
+.user-data table {
+  width: 100%;
+  table-layout: fixed;
+  font-family: "Courier New", Courier, monospace;
+  color: aliceblue;
+}
+
+.user-data tbody {
+  margin-top: 15px;
+  column-gap: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.user-data table th {
+  border: 1px solid #fffafa;
+}
+
+.user-data table td {
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 15px;
+  /* color: #696969; */
+  border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+
